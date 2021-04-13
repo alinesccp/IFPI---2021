@@ -20,7 +20,6 @@ class Produto(BaseModel):
     disponivel: bool = False
   
   
-  
 class Pedido(BaseModel):
     id: Optional[str] = None
     usuario = Usuario
