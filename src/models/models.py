@@ -18,6 +18,7 @@ class Produto(BaseModel):
     detalhes: str
     preco: float
     disponivel: bool = False
+    
 
 class Pedido(BaseModel):
     id: Optional[str] = None
